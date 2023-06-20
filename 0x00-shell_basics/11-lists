@@ -1,2 +1,4 @@
 #!/bin/bash
-( ls -la | tee /dev/tty ) | ( ls -la .. | tee /dev/tty ) | ( ls -la /boot | tee /dev/tty )
+ls -la . ..
+/boot
+
